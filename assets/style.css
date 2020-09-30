@@ -8,7 +8,9 @@
 .main-container {
   height: 100vh;
   width: auto;
+  /* from local storage */
   /* background-image: url("/assets/images/background-3840.png"); */
+  /* From cdn */
   background-image: url("https://i.imgur.com/oCPJqU0.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,7 +32,6 @@
   width: 100%;
   padding: 15px 50px;
   height: auto;
-  /* background-color: aqua; */
 }
 .login_title {
   margin-top: 20px;
@@ -38,7 +39,6 @@
 }
 .login_title h3 {
   font-size: 27px;
-
   font-weight: bold;
 }
 .login-sub-title {
@@ -47,6 +47,12 @@
   margin-top: 8px;
   letter-spacing: -0.1px;
 }
+
+.material-icons-outlined,
+.material-icons {
+  font-size: 20px;
+}
+
 .form-group label {
   font-size: 12px;
   font-weight: normal;
@@ -72,12 +78,11 @@
   background: #b5b5b552;
 }
 
-/* .border-all input:focus {
-  border: solid 5px !important;
-} */
-
 .form-control:focus {
   box-shadow: none !important;
+}
+.form-control {
+  padding: 0;
 }
 
 .form-check {
@@ -114,7 +119,6 @@ input[type="checkbox"] {
 .copyright {
   font-size: 11px;
   font-style: italic;
-  font-family: "Raleway", sans-serif;
   color: #383838a1;
 }
 
