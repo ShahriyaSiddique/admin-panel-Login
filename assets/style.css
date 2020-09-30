@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Raleway", sans-serif;
+}
+
+.main-container {
+  height: 100vh;
+  width: auto;
+  background-image: url("/assets/images/background-3840.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.login-container {
+  /* height: 85vh; */
+  /* width: 60vh; */
+  background-color: aqua;
+  box-shadow: 2px 2px 20px -11px #58585852;
+  border-radius: 3px;
+  background-color: #ffffff;
+}
+
+.logo {
+  margin-top: 25px;
+}
+.login-form-container {
+  width: 100%;
+  padding: 15px 50px;
+  height: auto;
+  /* background-color: aqua; */
+}
+.login_title {
+  margin-top: 20px;
+  color: #b309c1;
+}
+.login_title h3 {
+  font-size: 27px;
+  font-weight: bold;
+}
+.login-sub-title {
+  font-size: 12px;
+  color: #383838a1;
+  margin-top: 8px;
+  letter-spacing: -0.1px;
+}
+.form-group label {
+  font-size: 12px;
+  font-weight: bold;
+}
+.transparent {
+  background-color: transparent !important;
+  box-shadow: inset 0px 1px 0 rgba(0, 0, 0, 0.075);
+}
+.border-none {
+  border: none !important;
+  box-shadow: inset 0px 1px 0 rgba(0, 0, 0, 0.075);
+}
+.border-all {
+  border: solid 1px #b5b5b5;
+}
+
+.border-all:focus-within {
+  border: thin solid black;
+}
+
+#visibility_off {
+  margin-right: 0;
+  background: #b5b5b552;
+}
+
+/* .border-all input:focus {
+  border: solid 5px !important;
+} */
+
+.form-control:focus {
+  box-shadow: none !important;
+}
+
+.form-check {
+  padding-left: 0 !important;
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;
+}
+.login_btn {
+  background-color: #b309c1;
+  color: white;
+  padding: 10px 0px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.login_btn:hover {
+  background-color: #b309c1;
+  color: white;
+}
+
+.signup-or-forgotPass {
+  color: #b309c1;
+  font-size: 12px;
+}
+
+.copyright {
+  font-size: 11px;
+  font-style: italic;
+  font-family: "Raleway", sans-serif;
+}
+
+.fa {
+  padding: 7px;
+  font-size: 15px;
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.fa:last-child {
+  margin-right: 0;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+@media (max-width: 424px) {
+  .login-form-container {
+    padding: 15px 15px;
+  }
+}
